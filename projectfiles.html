@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+   <!-- Bootstrap -->
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+   <!-- jQuery Library -->
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+   <!-- Latest JavaScript -->
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+   <link rel="stylesheet" href="styles.css">
+   <head><title>Projects</title></head>
+   <!-- Add a header for the website -->
+   <div class="header">
+      <h1>Michael Connor Craney</h1>
+   </div>
+
+   <div class="topnav">
+           <a href="home_page.html">Home</a>
+           <a href="contact.html">Contact Info</a>
+           <a class="active" href="projectfiles.html">Project Files</a>
+   </div>
+
+   <h1>My Projects</h1>
+
+   <style>
+   table, th, td {
+      border: 1px solid #C5C6C7;
+   }
+   table {
+      border-collapse: collapse;
+      width: 80%;
+      margin: auto;
+   }
+   th {
+     height: 50px;
+     background-color: #45A29E;
+     color: #1F2833;
+     text-align: center;
+   }
+   th, td {
+	   padding: 15px;
+   }
+   </style>
+
+   <body class="container-fluid">
+   <!-- Table with Projects -->
+   <table>
+	   <tr>
+		   <th>Project Title</th>
+		   <th>Brief Description</th>
+		   <th>Link to Project</th>
+		   <th>Reason for Project</th>
+	   </tr>
+	   <tr>
+		   <td>Self Built Guitar Pedal</td>
+		   <td>I ordered a DIY guitar pedal kit that came with a printed PCB and all the necessary components that you then solder together. It was 
+			   not only a great learning experience but allows me to connect Computer Engineering to something I love, guitar.</td>
+		   <td><a href="https://buildyourownclone.com/products/blue-overdrive-kit">Link to Kit</a></td>
+		   <td>Personal Interest</td>
+	   </tr>
+	   <tr>
+		   <td>WiscWind 2019 Project</td>
+		   <td>This is our official report for the WiscWind 2019 competition. I wrote the sections on the Buck-Boost converters and helped with some
+			   of the arduino write up as well.</td>
+		   <td><a href="WiscWindReport.pdf">Link to Report</a></td>
+		   <td>UW-Madison Engineering Club WiscWind</td>
+	   </tr>
+	   <tr>
+		   <td>HelpDesk Website</td>
+		   <td>I helped to develop, along with some other Student IT staff, a website for our HelpDesk. The website was developed with WordPress and
+			   I also utilized photoshop in order to make the various step by step instructions on the website more clear.</td>
+		   <td><a href="https://helpdesk.psychiatry.wisc.edu">Link to Website</a></td>
+		   <td>IT/Networking Job at UW-Madison Department of Psychiatry</td>
+	   </tr>
+	   <tr>
+		   <td>Heap Allocator</td>
+		   <td>For my Machine Organization class we had to design our own heap allocator using an implicit free list in C. It was one of the hardest programs
+			   I've ever had to write and forced me to get really familiar with the C debugger</td>
+		   <td><a href="https://github.com/mcraney2/HeapAllocator">Link to the Github Repo</a></td>
+		   <td>School - Specific Class: CS 354</td>
+	   </tr>
+	   <tr>
+		   <td>This Website</td>
+		   <td>I developed this website using HTML and CSS through Vim. It was a lot of trial and error and helped me get a better feel for how to use
+			   HTML and CSS to their full ability.</td>
+		   <td>N/A</td>
+		   <td>Personal Interest</td>
+	   </tr>
+	   <tr>
+		   <td>Hash Table</td>
+		   <td>This is a HashTable implemented with rehashing over a certain threshold value and uses chained buckets if two items are hashed to the same
+			   location. The language is Java. The table performs significantly better in terms of time complexity when compared to the Java TreeMap.</td>
+		   <td><a href="https://github.com/mcraney2/HashTable">Link to the Github Repo</a></td>
+		   <td>School - Specific Class: CS 400</td>
+           </tr>
+	   <tr>
+		   <td>Quiz Generator</td>
+		   <td>For our final project for CS400 we worked together in teams to create a Quiz Generator application with a functional GUI. I played a major part
+			   in the GUI design, parsing in JSON files, adding button functionality, and randomly generating a pool of questions from the provided. We also
+		           used Git and Github in order to work together so I learned those two applications as well.</td>
+		   <td><a href="executable.jar">Link to Executable</a></td>
+		   <td>School - Specific Class: CS 400</td>
+   </table>
+   <br />
+   <br />
+   </body>
+</html>
